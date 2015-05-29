@@ -1,0 +1,9 @@
+C:\SentimentAnalysis\sentiment\sentiment\bin\Debug\sentiment.exe.config
+C:\SentimentAnalysis\sentiment\sentiment\bin\Debug\sentiment.exe
+C:\SentimentAnalysis\sentiment\sentiment\bin\Debug\sentiment.pdb
+C:\SentimentAnalysis\sentiment\sentiment\obj\Debug\sentiment.csprojResolveAssemblyReference.cache
+C:\SentimentAnalysis\sentiment\sentiment\obj\Debug\sentiment.Form1.resources
+C:\SentimentAnalysis\sentiment\sentiment\obj\Debug\sentiment.Properties.Resources.resources
+C:\SentimentAnalysis\sentiment\sentiment\obj\Debug\sentiment.csproj.GenerateResource.Cache
+C:\SentimentAnalysis\sentiment\sentiment\obj\Debug\sentiment.exe
+C:\SentimentAnalysis\sentiment\sentiment\obj\Debug\sentiment.pdb
