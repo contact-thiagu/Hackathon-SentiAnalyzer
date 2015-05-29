@@ -21,19 +21,19 @@ namespace SAnalayser
     {
 
         public Microsoft.Office.Interop.Word.Application app;
-        public List<string> sentiment;
+        List<string> sentiment;
         public List<string> good;
         public List<string> bad;
         public List<string> common;
-        List<string> b = new List<string> { "biggest","crazy","absolutely","certainly","complete","completely","definitely","especially","extremely","fuckin","fucking","hugely","incredibly","overwhelmingly","really","totally","very"};
-        List<string> negb = new List<string> { "didnot", "didnt", "didn't", "couldnt", "couldnot", "couldn't", "aren't", "arent","arenot", "can't", "cannot", "cant", "couldn't", "couldnt", "don't", "dont", "isn't", "isnt", "never", "won't", "wont", "wouldn't", "wouldnt" };
+        List<string> b = new List<string> {"exact","very","exactly","biggest","crazy","absolutely","certainly","complete","completely","definitely","especially","extremely","fuckin","fucking","hugely","incredibly","overwhelmingly","really","totally","very"};
+        List<string> negb = new List<string> { "don", "doesn't", "don't", "doesn", "didnot", "didnt", "didn't", "couldnt", "couldnot", "couldn't", "aren't", "arent", "arenot", "can't", "cannot", "cant", "couldn't", "couldnt", "don't", "dont", "isn't", "isnt", "never", "won't", "wont", "wouldn't", "wouldnt" };
         public SentimentObj obj;
         Dictionary<string, int> dictonary = new Dictionary<string, int>();
         
         public string process(string sentence)
         {
             obj = new SentimentObj();
-            setup();
+           
             //bad.AddRange(negb);
             //negb.Clear();
             //string sentence = "I hate my country";
@@ -85,7 +85,7 @@ namespace SAnalayser
             {
                 status= "Positive";
             }
-            else if ((pos - neg) <= 1 && (pos - neg) >= -1)
+            else if ((pos - neg) == 1 || (pos - neg) == 0)
             {
                 status= "Neutral";
             }
@@ -124,14 +124,15 @@ namespace SAnalayser
 
             if (negb.FirstOrDefault(i => string.Compare(str, i, true) == 0) != null) 
             { 
-                previousValue = Previous.BNG; 
+                previousValue = Previous.BNG;
+                neg++;
                 return true; 
             }
 
             if (good.FirstOrDefault(i => string.Compare(str, i, true) == 0) != null) 
             {
                 if (previousValue == Previous.B) { pos++; }
-                else if (previousValue == Previous.BAD || previousValue == Previous.BNG) { neg+=2; }
+                else if (previousValue == Previous.BAD || previousValue == Previous.BNG) { neg++; }
                 else { pos++; }
 
                 previousValue = Previous.GOOD; 

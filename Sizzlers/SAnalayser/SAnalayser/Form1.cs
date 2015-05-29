@@ -34,7 +34,7 @@ namespace SAnalayser
               };
               watcher.Created += new FileSystemEventHandler(OnChanged); */
 
-            processfile(@"d:\pickup\inputsample.txt", "inputsample.txt");
+            processfile(@"d:\pickup\HackathonInput.txt", "HackathonInput.txt");
 
         }
 
@@ -46,23 +46,26 @@ namespace SAnalayser
             StringBuilder sb = new StringBuilder();
             List<SentimentObj> listObj = new List<SentimentObj>();
             Microsoft.Office.Interop.Word.Application app1 = new Microsoft.Office.Interop.Word.Application();
+            SentimentAnalyser s = new SentimentAnalyser();
+            s.app = app1;
+            s.setup();
             while ((line = file.ReadLine()) != null)
             {
-                SentimentAnalyser s = new SentimentAnalyser();
-                s.app = app1;
+                
                 //s.process("I took the day off yesterday for the installation, whole family was around and the technician did not show up. How do I cancel the service now?");
                 sb.AppendLine(s.process(line));
                 listObj.Add(s.obj);
             }
             
             file.Close();
+            System.IO.File.WriteAllText(@"d:\pickup\sizzlers_Out.txt", sb.ToString());
 
             BusinessLayer.SentimentData data = new SentimentData();
             listObj.ForEach(i=>data.insertSentiments(i));
 
             MessageBox.Show("Analysis complete");
-            System.IO.File.WriteAllText(@"d:\pickup\outputsample.txt", sb.ToString());
-            SendStatusEmail.SendEmail(fileName);
+            
+            //SendStatusEmail.SendEmail(fileName);
 
 
            
