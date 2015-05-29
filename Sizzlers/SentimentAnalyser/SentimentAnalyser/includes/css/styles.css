@@ -1,0 +1,279 @@
+
+
+
+body{margin:0; padding:0; background-color:#f2f2f2; font-family:Arial, Helvetica, sans-serif; color:#333; font-size:14px;}
+.divGlobal {width:100%}
+.divGlobal .bodycontent{padding:0 15px;}
+.divGlobal .bodycontent .row{margin-right:-15px; margin-left:-15px;}
+.divGlobal .container {width:100%; margin:0 auto; background-color:#ffffff; }
+.divGlobal .container .bgimage {background-repeat:no-repeat; background-size:cover;}
+.divGlobal .container .bgimage .shadowdiv{height:100%; background: linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,1) 100%); width:100%; position:relative; overflow:hidden;}
+.divGlobal .container .logowrap {position:absolute; right:15px; top:15px;}
+.divGlobal .container .sitefooter {padding:0;width:100%; background-color:#f2f2f2; border-top:1px solid #ccc; padding-top:10px;}
+.divGlobal .flex{max-width:100%;}
+.divGlobal .flex_sm{max-width:50%;}
+.divGlobal img{border:none; display:block;}
+.divGlobal p{font-size:1em; margin:0 0 10px 0; padding:0;}
+
+
+.divGlobal .bold { font-weight:bold; }
+.divGlobal .hidden_text { text-indent: -99999px }
+.divGlobal .fl { float:left !important;}
+.divGlobal .fr { float:right !important;}
+.divGlobal .clear {clear: both; display:block; min-width:0;}
+.divGlobal .clear:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.divGlobal .fixer { display:block; clear:both; overflow:hidden; width:auto; height:1px; line-height:1px; font-size:1px; }
+.divGlobal .clearfix { *zoom:1}
+.divGlobal .clearfix:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; line-height:0; overflow:auto; _height:1px; }
+.divGlobal .centered { margin: auto !important; }
+.divGlobal .hidden { position:absolute !important; left:-9000em; top:-9000em; width:0; height:0; overflow:hidden; }
+.divGlobal div.divider { border-bottom:1px solid #d8d9d9; padding-top:20px; margin-bottom:14px; }
+.divGlobal .italics {font-style:italic !important;}
+.divGlobal .bold {font-weight:bold !important;}
+.divGlobal .normal {font-weight:normal !important;}
+.divGlobal .t_center {text-align:center !important;}
+.divGlobal .t_right {text-align:right !important;}
+.divGlobal .t_left {text-align:left !important;}
+.divGlobal .bdrb{border-bottom:1px solid #ccc; padding-bottom:5px;}
+
+.divGlobal .f10, .divGlobal .f10 a, .divGlobal a.f10 { font-size: 0.714em !important; line-height: 11px; }
+.divGlobal .f11, .divGlobal .f11 a, .divGlobal a.f11 { font-size: 0.786em !important; line-height: 12px; }
+.divGlobal .f12, .divGlobal .f12 a, .divGlobal a.f12 { font-size: 0.857em !important; line-height: 14px; }
+.divGlobal .f14, .divGlobal .f14 a, .divGlobal a.f14 { font-size: 1.000em !important; line-height: 16px; }
+.divGlobal .f15, .divGlobal .f15 a, .divGlobal a.f15 { font-size: 1.071em !important; line-height: 16px;}
+.divGlobal .f16, .divGlobal .f16 a, .divGlobal a.f16 { font-size: 1.143em !important; line-height: 18px; }
+.divGlobal .f17, .divGlobal .f17 a, .divGlobal a.f17 { font-size: 1.214em !important; line-height: 20px; }
+.divGlobal .f18, .divGlobal .f18 a, .divGlobal a.f18 { font-size: 1.286em !important; line-height: 20px; }
+.divGlobal .f20, .divGlobal .f20 a, .divGlobal a.f20 { font-size: 1.429em !important; line-height: 22px; }
+.divGlobal .f22, .divGlobal .f22 a, .divGlobal a.f22 { font-size: 1.571em !important; line-height: 24px; }
+.divGlobal .f24, .divGlobal .f24 a, .divGlobal a.f24 { font-size: 1.714em !important; line-height: 24px; }
+.divGlobal .f26, .divGlobal .f26 a, .divGlobal a.f26 { font-size: 1.857em !important; line-height: 28px; }
+.divGlobal .f28, .divGlobal .f28 a, .divGlobal a.f28 { font-size: 2.000em !important; line-height: 30px; }
+.divGlobal .f30, .divGlobal .f30 a, .divGlobal a.f30 { font-size: 2.143em !important; line-height: 32px; }
+.divGlobal .f32, .divGlobal .f32 a, .divGlobal a.f32 { font-size: 2.286em !important; line-height: 35px; }
+.divGlobal .f35, .divGlobal .f35 a, .divGlobal a.f35 { font-size: 2.500em !important; line-height: 38px; }
+.divGlobal .f48, .divGlobal .f48 a, .divGlobal a.f48 { font-size: 3.429em !important; line-height: 50px; }
+
+
+.divGlobal h1 { margin:0;padding:0; display:inline; font-size:inherit; line-height:inherit; letter-spacing:normal;font-weight:inherit;}
+.divGlobal h2 { font-size:3.143em; line-height:48px;margin:0 0 12px 0;padding:0; font-weight:normal;color:#333;}
+.divGlobal h3 { font-size:2.143em; line-height:32px;margin:0 0 12px 0;padding:0; font-weight:normal;color:#333;}
+.divGlobal h4 { font-size:1.857em; line-height:28px;margin:0 0 12px 0;padding:0; font-weight:normal;color:#333;}
+.divGlobal h5 { font-size:1.286em; line-height:22px;margin:0 0 12px 0;padding:0; font-weight:normal;color:#333;}
+.divGlobal h6 { font-size:1.143em; line-height:20px;margin:0 0 12px 0;padding:0; font-weight:normal;color:#333;}
+
+.divGlobal .snug { padding:0 !important; margin:0 !important; }
+
+/* Font Colors */
+.divGlobal .twhite{color:#ffffff;}
+.divGlobal .dblue {color:#0d5f99;}
+.divGlobal .dblack{color:#333333;}
+.divGlobal .torange{color:#FF9933;}
+.divGlobal .tgreen{color:#138808;}
+.divGlobal .tred{color:#ff0000;}
+
+/* Font Styles */
+.divGlobal .apex_light {font-family:Apex-Light, sans-serif !important;}
+.divGlobal .apex_book {font-family:Apex-Book, sans-serif !important;}
+.divGlobal .apex_book_italic {font-family:Apex-Book-Italic, sans-serif !important;}
+.divGlobal .apex_med{font-family:Apex-Medium, sans-serif !important;}
+.divGlobal .apex_med_italic {font-family:Apex-Medium-Italic, sans-serif !important;}
+.divGlobal .apex_bold {font-family:Apex-Bold, sans-serif !important;}
+.divGlobal .apex_bold_italic {font-family:Apex-Bold-Italic, sans-serif !important;}
+.divGlobal .apex_ultra{font-family:Apex-Ultra, sans-serif !important;}
+.divGlobal .apex_ultra_italic{font-family:Apex-Ultra-Italic, sans-serif !important;}
+
+
+
+.divGlobal div.pad { padding:0 10px 0 10px; }
+.divGlobal div.pad_all { padding:10px; }
+.divGlobal div.pad_none { padding:0; }
+.divGlobal div.pad_left { padding-left:10px; }
+.divGlobal div.pad_right { padding-right:10px; }
+.divGlobal div.pad_right25 {padding-right:25px;}
+.divGlobal div.pad_top { padding-top:10px; }
+.divGlobal .padt35{padding-top:35px;}
+.divGlobal div.pad_bottom { padding-bottom:10px; }
+.divGlobal div.pad_20 { padding:20px; }
+.divGlobal div.pad_20_0 { padding:20px 0; }
+.divGlobal div.pad_10_5 { padding:10px 5px; }
+.divGlobal div.pad_5_0 { padding:5px 0; }
+.divGlobal div.pad_little_left { padding-left:3px; }
+.divGlobal .m10 { margin: 10px; }
+.divGlobal .m20 { margin: 20px; }
+.divGlobal .mr0 { margin-right:0px !important; }
+.divGlobal .mr5{margin-right:5px;}
+.divGlobal .mr15{margin-right:15px;}
+.divGlobal .mr20{margin-right:20px;}
+.divGlobal .mr30{margin-right:30px;}
+.divGlobal .mb5 { margin-bottom:5px; }
+.divGlobal .mb15 { margin-bottom:15px; }
+.divGlobal .mb25 { margin-bottom:25px; }
+.divGlobal .ml5{margin-left:5px;}
+.divGlobal .pad10 { padding: 10px; }
+.divGlobal .padl20 { padding-left: 20px; }
+.divGlobal .padl5 { padding-left:5px; }
+.divGlobal .padr5 { padding-right:5px; }
+.divGlobal .padt10 { padding-top: 10px; }
+.divGlobal .padt40 { padding-top: 40px; }
+.divGlobal .snug { padding:0 !important; margin:0 !important; }
+.divGlobal .inline { float:left; display:inline; }
+.divGlobal .padl5 { padding-left:5px; }
+.divGlobal .padt20 { padding-top: 20px; }
+.divGlobal .padl40 { padding-left: 40px; }
+.divGlobal .pad_left_snug{padding-left:0 !important;}
+.divGlobal .pad_right_snug{padding-left:0 !important;}
+.divGlobal .pad_top_snug{padding-left:0 !important;}
+.divGlobal .pad_bottom_snug{padding-left:0 !important;}
+.divGlobal .mart5 {margin-top:5px !important;}
+
+.divGlobal .section_title{font-family:Apex-Book-Italic, sans-serif !important; font-size:1.286em; border-bottom:1px solid #ccc; padding-bottom:5px; padding-top:20px; color:#138808;}
+.divGlobal .container {padding:0;}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {padding-left: 0; padding-right: 0;}
+.divGlobal .pagination {margin-top:0px;}
+
+.divGlobal .icon_excel {background:url(../images/icon_excel.png) right 0 no-repeat; width:24px; height:30px; padding:5px 30px 5px 0;}
+.divGlobal .report_content{font-family:Apex-Book, sans-serif !important; font-size:16px; margin:10px 0;}
+
+
+@media (min-width:320px) and (max-width:599px){
+.divGlobal {width:100%}
+.divGlobal .container .shadowdiv{min-height:25px;}
+.divGlobal .container .sechero .shadowdiv {min-height:200px;}
+.divGlobal .container .bgimage .shadowdiv .contentwrap{width:100%;}
+.divGlobal .container .bgimage .shadowdiv .contentwrap .content{color:#fff; position:absolute; bottom:20px; left:15px; text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);}
+.divGlobal .container .logowrap {width:60px;}
+.divGlobal .container .sitefooter .footerwrap {padding:0 15px;}
+.divGlobal .container .sitefooter .footerwrap p{font-size:12px !important;}
+.divGlobal .container .sitefooter .footerwrap .col-xs-4 {padding-right:0px;}
+
+.divGlobal .navwrap {100%}
+.divGlobal .navigation{margin:0; padding:0;}
+.divGlobal .navigation li{list-style-type:none;background-color: #520606; border-bottom:1px solid #f2b243;}
+.divGlobal .navigation li.last{border-bottom:none;}
+.divGlobal .navigation li a{padding:18px 15px; text-align:left; display:block; font-family:Apex-Book, sans-serif !important; text-decoration:none; color:#fff; letter-spacing:0.8px;}
+.divGlobal .navigation li a:hover{text-decoration:none;}
+.divGlobal .desk_display {display:none;}
+.divGlobal .mob_display {display:block;}
+
+.divGlobal .btn{display:block;}
+.divGlobal #verifynumber .col-xs-6 {padding-right:5px;}
+.divGlobal .btnwrap .mb10 {margin-bottom:10px !important;}
+.divGlobal .nav_hidden{display:none;}
+.divGlobal .table tr td input[type="text"]{width:100%;}
+}
+@media (min-width:320px) and (max-width:599px) and (orientation:landscape){
+.divGlobal .container .shadowdiv{min-height:25px !important;}	
+.divGlobal .container .sechero .shadowdiv {min-height:100px;}
+.divGlobal .container .bgimage .shadowdiv .content{bottom:25px; left:15px;}
+}
+
+@media (min-width:640px) and (orientation:landscape){
+.divGlobal .container .bgimage .shadowdiv{min-height:25px !important;}
+.divGlobal .navwrap {margin-left:-15px; margin-right:-15px;}
+.divGlobal .navigation{margin:0; padding:0;}
+.divGlobal .navigation li{list-style-type:none;background-color:#E1EA83; border-bottom:1px solid #fff;}
+.divGlobal .navigation li.last{border-bottom:none;}
+.divGlobal .navigation li a{padding:18px 15px; text-align:left; display:block; font-family:Apex-Book, sans-serif !important; font-size:12px; text-decoration:none; color:#333; letter-spacing:0.8px;}
+.divGlobal .navigation li a:hover{text-decoration:none;}
+.divGlobal .desk_display {display:none;}
+.divGlobal .mob_display {display:block;}
+.divGlobal .nav_hidden{display:none;}
+.divGlobal .container .sechero .shadowdiv {min-height:200px !important;}
+}
+
+@media (min-width:600px) and (max-width:1024px){
+.divGlobal {width:100%}
+.divGlobal .container .bgimage .shadowdiv{min-height:25px;}
+.divGlobal .container .logowrap {width:100px;}
+.divGlobal .container .bgimage .shadowdiv .contentwrap{width:100%;}
+.divGlobal .container .bgimage .shadowdiv .contentwrap .content{color:#fff; position:absolute; bottom:20px; left:15px; text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);}
+.divGlobal .container .sitefooter .footerwrap{margin:0 auto; padding:0 15px;}
+.divGlobal .navwrap {width:100%; margin:0;}
+.divGlobal .navigation{margin:0; padding:0;}
+.divGlobal .navigation li{list-style-type:none;background-color: #7a0505; border-bottom:1px solid #f2b243;}
+.divGlobal .navigation li.last{border-bottom:none;}
+.divGlobal .navigation li a{padding:18px 15px; text-align:left; display:block; font-family:Apex-Book, sans-serif !important; text-decoration:none; color:#fff; letter-spacing:0.8px; font-size:14px;}
+.divGlobal .navigation li a:hover{text-decoration:none;}
+.divGlobal .desk_display {display:none;}
+.divGlobal .mob_display {display:block;}
+.divGlobal div.pad_right15 {padding-right:15px;}
+.col-md-5, .col-lg-5{ padding-right:15px;padding-left:0px;}
+.divGlobal #verifynumber .col-xs-6 {padding-right:5px;}
+.divGlobal .btn{display:block;}
+.divGlobal .btnwrap .mb10 {margin-bottom:10px !important;}
+.divGlobal .nav_hidden{display:none;}
+}
+
+@media (min-width:768px) and (max-width:1024px){
+.divGlobal .container .bgimage .shadowdiv{min-height:25px !important;}
+.divGlobal .navwrap {width:100%; margin:0; }
+.divGlobal .navigation{margin:0; padding:0;}
+.divGlobal .navigation li{list-style-type:none;background-color: #7a0505; border-bottom:1px solid #f2b243;}
+.divGlobal .navigation li.last{border-bottom:none; border-right:none;}
+.divGlobal .navigation li a{padding:18px 15px; text-align:left; display:block; font-family:Apex-Book, sans-serif !important; font-size:14px;  text-decoration:none; color:#fff; letter-spacing:0.8px;}
+.divGlobal .navigation li a:hover{text-decoration:none;}
+.divGlobal .desk_display {display:none;}
+.divGlobal .mob_display {display:block;}
+.divGlobal .btn{display:block;}
+.divGlobal .nav_hidden{display:none;}
+.divGlobal .loginwrap .col-md-3, .divGlobal .loginwrap .col-lg-3, .divGlobal .updatevolunteerwrap .col-md-3, .divGlobal .updatevolunteerwrap .col-lg-3{margin-right:20px;}
+
+}
+
+@media (min-width:600px) and and (max-width:1024px) and (orientation:landscape){
+.divGlobal .container .bgimage .shadowdiv{min-height:400px;}
+
+}
+
+@media (min-width:1024px) and (max-width:1024px){
+.divGlobal .navwrap {width:100%; border-bottom:none; margin-left:0px; margin-right:0px; background-color:#7a0505; -webkit-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.3);-moz-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.3);box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.3);}
+.divGlobal .navigation{margin:0 auto; padding:0; width:985px;}
+.divGlobal .navigation li{list-style-type:none; background-color:#7a0505; float:left; padding:0;  border-right:1px solid #facc12; border-bottom:none;}
+.divGlobal .navigation li.last{margin-right:0px}
+.divGlobal .navigation li a{text-align:left; padding:15px 15px 10px; font-family:Apex-Book, sans-serif !important; font-size:12px; text-decoration:none; color:#fff; letter-spacing:0.8px; border-bottom:5px solid #7a0505;}
+.divGlobal .navigation li a:hover{text-decoration:none; color:#fff; border-bottom:5px solid #fff;}
+.divGlobal .desk_display {display:block;}
+.divGlobal .mob_display {display:none;}
+.divGlobal div.pad_right15 {padding-right:15px;}
+.divGlobal #verifynumber .lgcolfix {width:10.333%;}
+.divGlobal .btn{display:inline-block;}
+.col-md-6, .col-lg-6, .col-md-8, .col-lg-8{ padding-right:15px;padding-left:0px;}
+.divGlobal .nav_hidden {display:block;}
+.divGlobal .btntpad {padding-top:25px;}
+.divGlobal .reportexcelnktpad {padding-top:15px;}
+}
+
+
+
+
+@media (min-width:1025px){
+.divGlobal {width:100%}
+.divGlobal .container .bgimage .shadowdiv{min-height:400px !important;}
+.divGlobal .container .bodycontent{width:985px; margin:0 auto;}
+.divGlobal .container .sitefooter .footerwrap{width:985px; margin:0 auto; padding:0;}
+.divGlobal .container .bgimage .shadowdiv .contentwrap{width:985px; margin:0 auto !important; position:relative;}
+.divGlobal .container .bgimage .shadowdiv .contentwrap .content {color:#fff; width:300px; position:absolute; top:250px; left:0; padding:15px; background-color:#000; border-radius:5px;}	
+.divGlobal .container .logowrap {width:100px; right:50px;}
+
+.divGlobal .navwrap {width:100%; border-bottom:none; margin-left:0px; margin-right:0px; background-color:#7a0505; -webkit-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.3);-moz-box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.3);box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.3);}
+.divGlobal .navigation{margin:0 auto; padding:0; width:985px;}
+.divGlobal .navigation li{list-style-type:none; background-color:#7a0505; float:left; padding:0;  border-right:1px solid #facc12; border-bottom:none;}
+.divGlobal .navigation li.last{margin-right:0px; border-right:none;}
+.divGlobal .navigation li a{text-align:left; padding:15px 15px 10px; font-family:Apex-Book, sans-serif !important; font-size:12px; text-decoration:none; color:#fff; letter-spacing:0.8px; border-bottom:5px solid #7a0505;}
+.divGlobal .navigation li a:hover{text-decoration:none; color:#fff; border-bottom:5px solid #fff;}
+.divGlobal .navigation li a.selected {color:#fff; border-bottom:5px solid #fff;}
+.divGlobal div.pad_right15 {padding-right:15px;}
+
+.divGlobal .desk_display {display:block;}
+.divGlobal .nav_hidden {display:block;}
+.col-md-6, .col-lg-6, .col-md-8, .col-lg-8{ padding-right:15px;padding-left:0px;}
+.col-md-5, .col-lg-5{ padding-right:15px;padding-left:0px;}
+.divGlobal #verifynumber .lgcolfix {width:10.333%;}
+
+.divGlobal .loginwrap .col-md-3, .divGlobal .loginwrap .col-lg-3, .divGlobal .updatevolunteerwrap .col-md-3, .divGlobal .updatevolunteerwrap .col-lg-3{margin-right:20px;}
+.divGlobal .btntpad {padding-top:25px;}
+.divGlobal .reportexcelnktpad {padding-top:15px;}
+.divGlobal .adminindextext{font-size:24px; margin:30px 0;}
+
+}

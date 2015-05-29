@@ -1,0 +1,4 @@
+d:\projects\SentimentAnalyser\BusinessObjects\bin\Release\BusinessObjects.dll
+d:\projects\SentimentAnalyser\BusinessObjects\bin\Release\BusinessObjects.pdb
+d:\projects\SentimentAnalyser\BusinessObjects\obj\Release\BusinessObjects.dll
+d:\projects\SentimentAnalyser\BusinessObjects\obj\Release\BusinessObjects.pdb

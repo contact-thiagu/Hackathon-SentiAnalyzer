@@ -1,0 +1,4 @@
+d:\projects\SentimentAnalyser\ClassLibrary1\bin\Release\CoreDataLayer.dll
+d:\projects\SentimentAnalyser\ClassLibrary1\bin\Release\CoreDataLayer.pdb
+d:\projects\SentimentAnalyser\ClassLibrary1\obj\Release\CoreDataLayer.dll
+d:\projects\SentimentAnalyser\ClassLibrary1\obj\Release\CoreDataLayer.pdb

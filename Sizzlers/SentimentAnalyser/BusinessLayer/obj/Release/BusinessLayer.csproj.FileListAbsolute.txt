@@ -1,0 +1,9 @@
+d:\projects\SentimentAnalyser\BusinessLayer\bin\Release\BusinessLayer.dll
+d:\projects\SentimentAnalyser\BusinessLayer\bin\Release\BusinessLayer.pdb
+d:\projects\SentimentAnalyser\BusinessLayer\bin\Release\BusinessObjects.dll
+d:\projects\SentimentAnalyser\BusinessLayer\bin\Release\CoreDataLayer.dll
+d:\projects\SentimentAnalyser\BusinessLayer\bin\Release\BusinessObjects.pdb
+d:\projects\SentimentAnalyser\BusinessLayer\bin\Release\CoreDataLayer.pdb
+d:\projects\SentimentAnalyser\BusinessLayer\obj\Release\BusinessLayer.csprojResolveAssemblyReference.cache
+d:\projects\SentimentAnalyser\BusinessLayer\obj\Release\BusinessLayer.dll
+d:\projects\SentimentAnalyser\BusinessLayer\obj\Release\BusinessLayer.pdb

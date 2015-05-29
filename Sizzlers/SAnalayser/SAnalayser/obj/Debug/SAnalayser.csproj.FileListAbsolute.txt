@@ -1,0 +1,12 @@
+d:\Projects\SAnalayser\SAnalayser\bin\Debug\SAnalayser.exe.config
+d:\Projects\SAnalayser\SAnalayser\bin\Debug\SAnalayser.exe
+d:\Projects\SAnalayser\SAnalayser\bin\Debug\SAnalayser.pdb
+d:\Projects\SAnalayser\SAnalayser\obj\Debug\SAnalayser.csprojResolveAssemblyReference.cache
+d:\Projects\SAnalayser\SAnalayser\obj\Debug\SAnalayser.Form1.resources
+d:\Projects\SAnalayser\SAnalayser\obj\Debug\SAnalayser.Properties.Resources.resources
+d:\Projects\SAnalayser\SAnalayser\obj\Debug\SAnalayser.csproj.GenerateResource.Cache
+d:\Projects\SAnalayser\SAnalayser\obj\Debug\SAnalayser.exe
+d:\Projects\SAnalayser\SAnalayser\obj\Debug\SAnalayser.pdb
+d:\Projects\SAnalayser\SAnalayser\bin\Debug\BusinessLayer.dll
+d:\Projects\SAnalayser\SAnalayser\bin\Debug\BusinessObjects.dll
+d:\Projects\SAnalayser\SAnalayser\bin\Debug\CoreDataLayer.dll
