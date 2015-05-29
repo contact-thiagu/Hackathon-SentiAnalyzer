@@ -24,11 +24,18 @@ namespace sentiment
         
         private void Form1_Load(object sender, EventArgs e)
         {
-            panel1.Visible = false;
-            string postivepath = Application.StartupPath + "\\positive-words.txt";
-            string negpath = Application.StartupPath + "\\Negative-words.txt";
-            positiveword = File.ReadAllLines(@postivepath);
-            negativeword = File.ReadAllLines(@negpath);
+            try
+            {
+                panel1.Visible = false;
+                string postivepath = Application.StartupPath + "\\positive-words.txt";
+                string negpath = Application.StartupPath + "\\Negative-words.txt";
+                positiveword = File.ReadAllLines(@postivepath);
+                negativeword = File.ReadAllLines(@negpath);
+            }
+            catch
+            {
+                MessageBox.Show("Error occured while processing please try again");
+            }
             
         }
 
@@ -120,7 +127,7 @@ namespace sentiment
                         string sentivalue = "Negative";
                         if (sentiscore == 0)
                         {
-                            sentivalue = "Netural";
+                            sentivalue = "Neutral";
                         }
                         else if (sentiscore > 0)
                         {
